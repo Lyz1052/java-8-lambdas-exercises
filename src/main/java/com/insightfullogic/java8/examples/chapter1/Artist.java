@@ -37,6 +37,8 @@ public final class Artist {
         this.nationality = nationality;
     }
 
+
+
     /**
      * @return the name
      */
