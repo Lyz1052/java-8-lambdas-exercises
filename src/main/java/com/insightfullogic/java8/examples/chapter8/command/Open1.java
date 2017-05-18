@@ -1,11 +1,11 @@
 package com.insightfullogic.java8.examples.chapter8.command;
 
 // BEGIN Open
-public class Open implements Action {
+public class Open1 implements Action {
 
     private final Editor editor;
 
-    public Open(Editor editor) {
+    public Open1(Editor editor) {
         this.editor = editor;
     }
 

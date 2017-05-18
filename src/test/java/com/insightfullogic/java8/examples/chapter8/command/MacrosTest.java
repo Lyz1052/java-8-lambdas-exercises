@@ -10,9 +10,9 @@ public class MacrosTest {
 
 // BEGIN classBasedCommand
 Macro macro = new Macro();
-macro.record(new Open(editor));
-macro.record(new Save(editor));
-macro.record(new Close(editor));
+//macro.record(new Open(editor));
+//macro.record(new Save(editor));
+//macro.record(new Close(editor));
 macro.run();
 // END classBasedCommand
 

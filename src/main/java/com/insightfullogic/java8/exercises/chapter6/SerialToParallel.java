@@ -7,7 +7,8 @@ import java.util.stream.IntStream;
 public class SerialToParallel {
 
     public static int sumOfSquares(IntStream range) {
-        return Exercises.replaceThisWithSolution();
+        return range.parallel().map(n->n*n).sum();
+//        return Exercises.replaceThisWithSolution();
     }
 
     public static int sequentialSumOfSquares(IntStream range) {
