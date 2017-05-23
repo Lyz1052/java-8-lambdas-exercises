@@ -5,7 +5,7 @@ package com.insightfullogic.java8.exercises.chapter8.observer;
  */
 public class HolyProber implements Prober {
     @Override
-    public void event() {
-
+    public void event(String name) {
+        System.out.println(name+" occured, ready to defence");
     }
 }
